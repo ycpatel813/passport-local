@@ -1,26 +1,37 @@
 # passport-local
 
-[Passport](http://passportjs.org/) strategy for authenticating with a username
-and password.
+[Passport](https://www.passportjs.org/) strategy for authenticating with a
+username and password.
 
 This module lets you authenticate using a username and password in your Node.js
-applications.  By plugging into Passport, local authentication can be easily and
-unobtrusively integrated into any application or framework that supports
-[Connect](http://www.senchalabs.org/connect/)-style middleware, including
-[Express](http://expressjs.com/).
+applications.  By plugging into Passport, password-based sign in can be easily
+and unobtrusively integrated into any application or framework that supports
+[Connect](https://github.com/senchalabs/connect#readme)-style middleware, including
+[Express](https://expressjs.com/).
+
+<div align="center">
+
+:seedling: [Tutorial](https://www.passportjs.org/tutorials/password/?utm_source=github&utm_medium=referral&utm_campaign=passport-local&utm_content=nav-tutorial) •
+:dart: [How-to](https://www.passportjs.org/howtos/password/?utm_source=github&utm_medium=referral&utm_campaign=passport-local&utm_content=nav-howto) •
+:hammer_and_wrench: [API Reference](https://www.passportjs.org/api/passport-local/1.x/?utm_source=github&utm_medium=referral&utm_campaign=passport-local&utm_content=nav-api) •
+:heart: [Sponsors](https://www.passportjs.org/sponsors/?utm_source=github&utm_medium=referral&utm_campaign=passport-local&utm_content=nav-sponsors)
+
+</div>
 
 ---
 
-<p align="center"><a href="http://www.tkqlhce.com/click-8907558-13433666" target="_top">1Password, the only password manager you should trust.</a> Industry-leading security and award winning design.</p>
+<p align="center">
+  <sup>Advertisement</sup>
+  <br>
+  <a href="https://www.tkqlhce.com/click-8907558-13433666?sid=cuHsLFjXqeyT2iHbYYaHMuw" target="_top">1Password, the only password manager you should trust.</a> Industry-leading security and award winning design.
+</p>
 
 ---
 
-Status:
-[![Build](https://img.shields.io/travis/jaredhanson/passport-local.svg)](https://travis-ci.org/jaredhanson/passport-local)
-[![Quality](https://img.shields.io/codeclimate/github/jaredhanson/passport-local.svg?label=quality)](https://codeclimate.com/github/jaredhanson/passport-local)
-[![Coverage](https://img.shields.io/coveralls/jaredhanson/passport-local.svg)](https://coveralls.io/r/jaredhanson/passport-local)
-[![Dependencies](https://img.shields.io/david/jaredhanson/passport-local.svg)](https://david-dm.org/jaredhanson/passport-local)
-
+[![npm](https://img.shields.io/npm/v/passport-local.svg)](https://www.npmjs.com/package/passport-local)
+[![build](https://img.shields.io/travis/jaredhanson/passport-local.svg)](https://travis-ci.org/jaredhanson/passport-local)
+[![coverage](https://img.shields.io/coveralls/jaredhanson/passport-local.svg)](https://coveralls.io/github/jaredhanson/passport-local)
+[...](https://github.com/jaredhanson/passport-local/wiki/Status)
 
 ## Install
 
@@ -113,18 +124,12 @@ app.post('/login',
 
 ## Examples
 
-Developers using the popular [Express](http://expressjs.com/) web framework can
-refer to an [example](https://github.com/passport/express-4.x-local-example)
-as a starting point for their own web applications.
+* [express-4.x-local-example](https://github.com/passport/express-4.x-local-example)
+
+  Illustrates how to use the password strategy within an [Express](https://expressjs.com)
+  application.
 
 Additional examples can be found on the [wiki](https://github.com/jaredhanson/passport-local/wiki/Examples).
-
-## Sponsorship
-
-Passport is open source software.  Ongoing development is made possible by
-generous contributions from [individuals and corporations](https://github.com/jaredhanson/passport/blob/master/SPONSORS.md).
-To learn more about how you can help keep this project financially sustainable,
-please visit Jared Hanson's page on [Patreon](https://www.patreon.com/jaredhanson).
 
 ## License
 
